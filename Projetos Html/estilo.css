@@ -96,12 +96,25 @@
 
     /*elementos em bloco ou block sempre aparecem um abaixo do outro.*/ 
 
-    
+    /* o comando *{} é usado para selecionar tudos os elementos da página  */
 
    
+    a {
+        padding: 10px;
+        color: rgb(118, 132, 147);
+        text-decoration: none;
+    }
 
+    ul {
+        border: 1px solid red;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
-
+    li {
+        padding-left: 20px;
+    }
 
 
 
