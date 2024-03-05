@@ -23,12 +23,14 @@
                 background-color: rgb(0, 0, 125);
             }
             .acima {
-                background-color: rgb(46, 46, 149) ;
+                background-color: rgb(46, 46, 149);
+                height: 180px;
+                position: relative;
             }
 
             a {
                 padding: 10px;
-                color: rgb(118, 132, 147);
+                color: rgb(0, 0, 0);
                 text-decoration: none;
             }
 
@@ -36,23 +38,67 @@
                 background: rgb(255, 255, 255);
                 border: 2px solid rgb(255, 255, 255);
                 width: 200px;
-            
-                
             }
 
             .txt {
                 text-align: right;
             }
 
-        
-
-           
-
-            a:hover {
-                color: rgb(38, 38, 99);
+           ul a:hover {
+                color: rgb(14, 14, 45);
+                background: rgba(112, 163, 230, 0.815);
             }
-                
-            
+
+            ul a {
+                display: block;
+                padding: 0 2em;
+                color: white;
+                line-height: 2em;
+                text-decoration: none;
+                background: url(imagens/Sem\ título.png) no-repeat;
+                float: left;
+            }
+
+           .li {
+                float: left;
+                font-size: 16px;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                width: 703px;
+                background-color: rgb(46, 46, 149);
+                float: left;
+                position: relative;
+                bottom: 40px;
+                left: 50px;
+          
+            }
+
+            .li2 {
+                float: left;
+                font-size: 16px;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                width: 703px;
+                background-color: rgb(46, 46, 149);
+                float: left;
+                position: relative;
+                bottom: 40px;
+                left: 120px;
+            }
+
+            .l {
+                position: relative;
+                right: 110px;
+                top: 40px;
+            }
+
+            .l2 {
+                position: relative;
+                left: 110px;
+                bottom: 59px;
+            }
 
 
 
@@ -72,12 +118,25 @@
         
         <center>
        <div class="acima">
-        <img src="imagens/24b37378-d1ad-42a6-b917-e891fa7399b9.jpg" width="250" class="img">
+        <img src="imagens/24b37378-d1ad-42a6-b917-e891fa7399b9.jpg" width="350" class="img">
        </div>
            
+       <ul class="li2" >
+        <li><a href="atacado.html"><b>Gazin Atacado</a></li>
+        <li><a href="gazin-autoposto.html">Gazin Auto Posto</a></li>
+        <li><a href="gazincreed.html">Gazin Creed</a></li>
+        <li><a href="colchões.html">Gazin Colchões</a></li>
+       </ul>
+
+        <ul class="li">
+        <li><a href="consorcio.html">Gazin Consórcio</a></li>
+        <li><a href="gazinseguros.html">Gazin Seguros</a></li>
+        <li><a href="gazinviagens.html">Gazin Viagens</a></li>
+        <li><a href="varejo.html">Gazin Varejo</b></a></li>
        
-       
-       
+       </ul>
+
+
        <br>
 
 
@@ -106,22 +165,23 @@
     <h2 style="color: rgb(1, 1, 101);">O que a empresa tem a oferecer para o cliente</h2>
     
         <!-- aqui pode usar o square, cicle, disk -->
-        <center>
+    <center>
        
 
-        <p>
+        <span class="l"> 
        <a href="colchões.html"> Gazin Colchões</a><br>
       <a href="gazinbank.html"> Gazin Creed </a><br>
         <a href="Atacado.html">Gazin Atacado</a><br>
-        <a href="lojasfisicas.html">Lojas físicas</a><br>
        <a href="consorcio.html"> Gazin Consórcio</a><br>
+        </span>
+
+        <span class="l2">
         <a href="gazinviagens.html">Gazin Viagens</a><br>
         <a href="gazintech.html">Gazin Tech</a><br>
        <a href="gazinseguros.html">Gazin Seguros</a><br>
        <a href="gazin-autoposto.html">Gazin Auto Posto</a>
-    </p>
+    </span>
 
-</center>
 <hr>
 </center>
 <!-- códigos para linhas ordenadas: 1,A,a,I -->

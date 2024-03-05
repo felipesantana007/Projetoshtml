@@ -86,7 +86,10 @@
    
     */
 
-    /* inline-block, block, inline*/
+    /* inline-block, block, inline     
+     tamanho dos elementos inline é definido pelo conteudo que tem dentro dele
+     ja o block é um tamanho pré definido, para efetuar esse codigo é preciso usar
+     a palavra "display" antes  e depois selecionar inline ou block*/
 
     /*isso serve para fazer tipo tabelas, com div e span, com o inline, block
     é possivel deixar o div um do lado do outro, como se fossse uma
@@ -94,10 +97,10 @@
 
     /*padding serve para definir o espaço dentro da div, ou da span, ou da table.*/
 
-    /*elementos em bloco ou block sempre aparecem um abaixo do outro.*/ 
 
     /* o comando *{} é usado para selecionar tudos os elementos da página  */
 
+        /* height = altura */
    
     a {
         padding: 10px;
