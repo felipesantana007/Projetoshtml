@@ -102,85 +102,52 @@
 
         /* height = altura */
    
-    a {
-        padding: 10px;
-        color: rgb(118, 132, 147);
-        text-decoration: none;
-    }
-
-    ul {
-        border: 1px solid red;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    li {
-        padding-left: 20px;
-    }
-
-
-    ul a:hover {
-        color: rgb(14, 14, 45);
-        background: rgba(112, 163, 230, 0.815);
-    }
-
-    ul a {
-        display: block;
-        padding: 0 2em;
-        color: white;
-        line-height: 2em;
-        text-decoration: none;
-        background: url(imagens/Sem\ título.png) no-repeat;
-        float: left;
-    }
-
-   .li {
-        float: left;
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        width: 703px;
-        background-color: rgb(46, 46, 149);
-        float: left;
-        position: relative;
-        bottom: 40px;
-        left: 50px;
-  
-    }
-
-    .li2 {
-        float: left;
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        width: 703px;
-        background-color: rgb(46, 46, 149);
-        float: left;
-        position: relative;
-        bottom: 40px;
-        left: 120px;
-    }
+   
 
 
 
 
+        #container {
+            background: white;
+            width: 720px;
+            margin: 0 auto;
+        }
+        
+        #marca {
+            height: 100px;
+            background: #9e9e9e;
+            text-align: center;
+            line-height: 100px;
+        }
 
+        #conteudo {
+            width: 520px;
+            float: right;
+        }
 
+        #navegação {
+            width: 180px;
+            float: left;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background: #d1d1d1;
+        }
 
+        #rodape {
+            clear: both;
+            background: gray;
+            padding: 5px;
+        }
 
+        #navegação ul {
+            list-style: none;
+        }
 
+        #navegação li a {
+            text-decoration: none;
+        }
 
-
-
-
-
-
-
-
-
+        
 
 
 
