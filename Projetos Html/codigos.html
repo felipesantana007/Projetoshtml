@@ -6,32 +6,44 @@
     <title>Codigos de experimento</title>
     <meta charset="utf-8">
     <style type="text/css">
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background: #f2f2f2;
+        }
 
-      body {
-        background: rgb(85, 144, 255);
-      }
+        .container {
+            width: 720px;
+            margin: 0 auto;
+            background: #fff;
+        }
 
-      #container {
-        background: white;
-        width: 800px;
-        margin: 10Px auto;
-        padding: 10px;
-    }
+        .marca {
+            height: 100px;
+            background: #9e9e9e;
+            line-height: 100px;
+            text-align: center;
+        }
 
-    p {
-        width: 400px;
-    }
-    
-    h2 {
-        
-    }
+        .conteudo {
+            width: 520px;
+            float: right ;
+        }
 
-    .relativo {
-        border: 1px solid red;
-        position: relative;
-        /* top, right, bottom, left, é preciso idicar com px, positivos ou negativos*/
-        left: 100px;
-    }
+        .navegacao {
+            border: 1px solid red;
+            width: 520px;
+            float: left;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background: #d1d1d1;
+        }
+
+        .rodape {
+            clear: both;
+            background: #c4c4c4;
+            padding: 5px;
+        }
+
 
     </style>
 
@@ -40,19 +52,16 @@
     <!-- posicionamentos (static, relative, absolute, e fixed)-->
 
     <body>
-        <div id="container">
+        <div class="container">
+            <div class="marca">Marca</div>
+            <div class="conteudo">Conteudo</div>
+            <divc class="navegacao">Navegação</div>
+            <div class="rodape">Rodapé</div>
 
-            <h2>Posicionamentos</h2>
-            <p>dsadsadsadsadsadsadsadadsadsa <br>
-            dsadsadsadsadsadsadsadadsadsa</p>
 
-                <p class="relativo"> fsdafdafdsafsafffsfaafadsfdagda <br>
-                dsafdajfldççlkfjdçafdsafda
-            fsdafdafdsafsafffsfaafadsfdagda</p>
 
 
         </div>
-
 
 
 
