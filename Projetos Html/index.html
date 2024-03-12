@@ -2,115 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <style type="text/css">
-            body {
-                background: rgb(255, 255, 255);
-                font-size: 20px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            }
-            .negrito {
-                font-weight: 400;
-            }
-            .italico {
-                font-style: italic;
-            }
-            .textocomlinhas {
-                /*text-decoration: underline;*/
-                /*text-decoration: overline;*/
-                text-decoration: none;
-            }
-            .fundo {
-                background-color: rgb(0, 0, 125);
-            }
-            .acima {
-                background-color: #1f348f;
-                height: 135px;
-                position: relative;
-                }
-
-            a {
-                padding: 10px;
-                color: rgb(0, 0, 0);
-                text-decoration: none;
-            }
-
-            .conteudo {
-                background: rgb(255, 255, 255);
-                border: 2px solid rgb(255, 255, 255);
-                width: 200px;
-            }
-
-            .txt {
-                text-align: right;
-            }
-
-            ul a:hover {
-        color: rgb(14, 14, 45);
-        background: rgba(112, 163, 230, 0.815);
-    }
-
-    ul a {
-        display: block;
-        padding: 0 2em;
-        color: white;
-        line-height: 2em;
-        text-decoration: none;
-        background: url(imagens/Sem\ título.png) no-repeat;
-        float: left;
-    }
-
-   .li {
-        float: left;
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        width: 703px;
-        background-color:  #1f348f;
-        float: left;
-        position: relative;
-        bottom: 35px;
-        left: 50px;
-  
-    }
-
-    .li2 {
-        float: left;
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        width: 703px;
-        background-color:  #1f348f;
-        float: left;
-        position: relative;
-        bottom: 35px;
-        left: 120px;
-    }
-
-
-            .l {
-                position: relative;
-                left: 550px;
-                top: 40px;
-            }
-
-            .l2 {
-                position: relative;
-                left: 800px;
-                bottom: 59px;
-            }
-
-            .container {
-                width: 100%;
-                margin: 0 auto;
-            }
-
-
-        </style>
-
-
-
+        <link rel="stylesheet" href="estilo.css">
+            
     </head>
 
     <title>Informações Gazin</title>
@@ -122,9 +15,9 @@
        
         
         <center>
-       <div class="acima">
-        <a href="index.html"><img src="imagens/24b37378-d1ad-42a6-b917-e891fa7399b9.jpg" width="260" class="img"></a>
-       </div>
+            <div class="acima">
+               <a href="index.html"><img src="imagens/24b37378-d1ad-42a6-b917-e891fa7399b9.jpg" alt="" width="260"></a>      
+            </div>
            
        <ul class="li2" >
         <li><a href="atacado.html"><b>Gazin Atacado</a></li>
@@ -172,26 +65,31 @@
         <!-- aqui pode usar o square, cicle, disk -->
     </center>
        
-  
-     <span class="l">
-       <a href="colchões.html"> Gazin Colchões</a><br>
-      <a href="gazinbank.html"> Gazin Creed </a><br>
-        <a href="Atacado.html">Gazin Atacado</a><br>
-       <a href="consorcio.html"> Gazin Consórcio</a><br>
-        </span>
- 
+    <table class="tbl">
+        <tr>
+            <th class="tabela2">Gazin Atacado</th>
+            <th class="tabela1">Gazin Creed</th>
+        </tr>
 
+        <tr>
+            <th class="tabela2">Gazin Auto Posto</th>
+            <th class="tabela1">Gazin Seguros</th>
+        </tr>
 
+        <tr>
+            <th class="tabela2">Gazin Colchões</th>
+            <th class="tabela1">Gazin Viagens</th>
+        </tr>
 
-        <span class="l2">
-        <a href="gazinviagens.html">Gazin Viagens</a><br>
-        <a href="gazintech.html">Gazin Tech</a><br>
-       <a href="gazinseguros.html">Gazin Seguros</a><br>
-       <a href="gazin-autoposto.html">Gazin Auto Posto</a>
-        </span>
+        <tr>
+            <th class="tabela2">Gazin Consórcio</th>
+            <th class="tabela1">Gazin Varejo</th>
+        </tr>
+
+    </table>
 
 <hr>
-</center>
+
 <!-- códigos para linhas ordenadas: 1,A,a,I -->
 <center>
 <h2 style="color: rgb(1, 1, 101);"> Vantagens de ser cliente </h2>
@@ -201,12 +99,12 @@
 
 
     <center>
-    <p>      <ul>
+    <p>     
          Atendimento <B>rápido</B><br>
         Preços <B>bons</B><br>
         Ofertas <b>diárias</b><br>
         Lojas em todo o <B>País</B><br>
-        </ul>
+        
    
         <hr>
 
