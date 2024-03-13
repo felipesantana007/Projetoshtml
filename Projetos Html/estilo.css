@@ -473,7 +473,13 @@ a {
         padding-bottom: 20px;
     }
 
-
+    .sdd {
+        position: relative;
+        border-top: solid 5px #133348;
+        border-right: solid 5px #133348;
+        border-bottom: solid 5px #1e679a;
+        border-left: solid 5px #19527b;
+    }
 
 
 
