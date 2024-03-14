@@ -1,6 +1,3 @@
-.acima {
-    background-color: rgb(46, 46, 149)
-}
 
 .negrito {
     font-weight: 400;
@@ -231,9 +228,10 @@ left: 130px;
         margin: 0 auto;
     }
 
-.acima {
+#acima {
     background-color: #1f348f;
     height: 135px;
+    width: 100%;
     position: relative;
     
 }
@@ -241,7 +239,8 @@ left: 130px;
 body {
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
-        background: white;
+        background: rgb(255, 255, 255);
+        margin: 0 auto;
     }
 
 
@@ -321,20 +320,30 @@ a {
         bottom: 5px;
     }
 
-    ul a:hover {
+    #acima ul a:hover {
         color: rgb(14, 14, 45);
         background: rgba(112, 163, 230, 0.815);
     }
 
-    ul a {
+    #acima ul {
         display: block;
         padding: 0 2em;
         color: white;
         line-height: 2em;
         text-decoration: none;
         background: url(imagens/Sem\ título.png) no-repeat;
-        float: left;
+        list-style: none;
+        text-align: center;
+        margin-left: 5%;
     }
+
+    #acima li {
+        float: left;
+        font-size: 16px;
+        
+    }
+
+    
 
    .li {
         float: left;
@@ -442,7 +451,7 @@ a {
 
     .tbl {
         position: relative;
-        left: 590px;
+        text-align: center;
     }
 
     .fabrica {
@@ -481,10 +490,31 @@ a {
         border-left: solid 5px #19527b;
     }
 
+    #acima ul .primeiro a :hover {
+        background: none;
+    }
 
 
+    .p {
+        width: 400px;
+    }
 
+    .layout {
+        background: rgb(255, 255, 255);
+        height: 90%;
+        width: 80%;
+    }
 
+    #rodape {
+        clear: both;
+        padding: 20px;
+        height: 60px;
+        background: #1f348f;
+        color: white;
+    }
 
-
-
+    .im {
+        position: relative;
+        text-align: left;
+        top: 20px;
+    }
