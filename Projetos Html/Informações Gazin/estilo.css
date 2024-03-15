@@ -251,8 +251,9 @@ body {
 .div {
     position: relative;
     float: left;
-    margin-left: 90px;
+    margin-left: 6%;
     margin-top: 40px;
+    margin-bottom: 100px;
     border: rgb(255, 255, 255);
     font-size: 15px;
     border-collapse: collapse;
@@ -397,13 +398,14 @@ a {
 
     .img {
         position: relative;
-        right: 30px;
-
+        margin-right: 35px;
+        border-radius: 8px;
     }
 
     .img2 {
         position: relative;
-        left: 30px;
+        border-radius: 8px;
+    
     }
 
     .p {
@@ -428,9 +430,7 @@ a {
 
     .gz {
         position: relative;
-        top: 720px;
-        right: 1420px;
-        padding-bottom: 5px;
+        text-align: center;
     }
 
     #container {
@@ -469,11 +469,11 @@ a {
     .divv {
         float: left;
         margin-top: 20px;
-        margin-left: 80px;
-        margin-right: 0px;
+        margin-left: 5%;
         border: rgb(255, 255, 255);
         font-size: 15px;
         border-collapse: collapse;
+  
         
     }
 
@@ -490,7 +490,7 @@ a {
         border-left: solid 5px #19527b;
     }
 
-    #acima ul .primeiro a :hover {
+    #acima ul a .primeiro {
         background: none;
     }
 
@@ -517,4 +517,26 @@ a {
         position: relative;
         text-align: left;
         top: 20px;
+    }
+
+    .consorcio {
+        margin-bottom: 50px;
+        margin-right: 70px;
+    }
+    
+    .borda {
+        border-radius: 10px;
+    }
+
+    .a {
+        color: rgb(112, 111, 111);
+    }
+
+    a:hover {
+        color:  rgb(14, 14, 45);;
+    }
+
+    .fabrica {
+        position: relative;
+        border: 10px;
     }
