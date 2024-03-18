@@ -230,9 +230,11 @@ left: 130px;
 
 #acima {
     background-color: #1f348f;
+    background: linear-gradient(#1f348f, #1f348f, #1f348f, #1a2a72);
     height: 135px;
     width: 100%;
     position: relative;
+    min-width: 1500px;
     
 }
 
@@ -273,7 +275,7 @@ a {
 
 
 .letra {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .imagem58 {
@@ -341,7 +343,6 @@ a {
     #acima li {
         float: left;
         font-size: 16px;
-        
     }
 
     
@@ -378,18 +379,10 @@ a {
     .td {
         position: relative;
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         text-align: right center;
         
     }
-
-    .td2 {
-        position: relative;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-
- 
 
     .container {
                 width: 100%;
@@ -468,11 +461,12 @@ a {
 
     .divv {
         float: left;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-left: 5%;
         border: rgb(255, 255, 255);
         font-size: 15px;
         border-collapse: collapse;
+        min-width: 200px
   
         
     }
@@ -511,6 +505,8 @@ a {
         height: 60px;
         background: #1f348f;
         color: white;
+        background-color: #1f348f;
+        background: linear-gradient( #1f348f, #1f348f, #1f348f, #1a2a72);
     }
 
     .im {
@@ -539,4 +535,36 @@ a {
     .fabrica {
         position: relative;
         border: 10px;
+    }
+    
+    .gaz {
+        min-width: 300px;
+    }
+
+    #acima ul .primeiro a {
+        background: none;
+    }
+
+    .primeiro:hover
+    {
+        color: rgb(14, 14, 45);
+        background: rgba(112, 163, 230, 0.815);
+    }
+
+    .produto {
+        background: white;
+    }
+
+    .produto:hover {
+        width: 75px;
+        transition: width 1s, backgroud 2s;
+    }
+
+    .lt {
+        font-size: 13px;
+    }
+
+    .lt2 {
+        padding-top: 14px;
+        padding-bottom: 14px;
     }
