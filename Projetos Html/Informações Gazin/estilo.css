@@ -342,6 +342,7 @@ a {
 
     #acima li {
         float: left;
+        margin: 0 auto;
         font-size: 16px;
     }
 
@@ -387,6 +388,8 @@ a {
     .container {
                 width: 100%;
                 margin: 0 auto;
+                background: #3da9f6;
+                background: url(imagens/gazinimg.png);
             }
 
     .img {
@@ -488,6 +491,9 @@ a {
         background: none;
     }
 
+    .h2 {
+        
+    }
 
     .p {
         width: 400px;
@@ -495,8 +501,9 @@ a {
 
     .layout {
         background: rgb(255, 255, 255);
-        height: 90%;
+        height: 100%;
         width: 80%;
+        padding-top: 20px;
     }
 
     #rodape {
@@ -567,4 +574,68 @@ a {
     .lt2 {
         padding-top: 14px;
         padding-bottom: 14px;
+    }
+
+    .img:hover {
+        width: 370px;
+        transition: 1s;
+    }
+
+    .img2:hover {
+        width: 370px;
+        transition: 1s;
+    }
+
+    .img3 {
+        position: relative;
+        border-radius: 8px;
+    }
+
+    .img3:hover {
+        width: 425px;
+        transition: 1s;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .imgz {
+        border-radius: 8px;
+    }
+
+    .imgz:hover {
+        width: 330px;
+        transition: 1s;
+    }
+
+    .jeito {
+        position: relative;
+        
+    }
+
+    .jeito:hover {
+        width: 230px;
+        transition: 1s
+    }
+
+    .dna {
+        position: relative;
+        margin-left: 80px;
+        border-radius: 8px;
+    }
+
+    .dna:hover {
+        width: 360px;
+        transition: 1s;
+    }
+
+    .mario {
+        padding-bottom: 40px;
+        margin-left: 70px;
+    }
+
+    .mario:hover {
+        width: 300px;
+        transition: 1s;
     }
