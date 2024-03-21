@@ -1,65 +1,4 @@
 
-.negrito {
-    font-weight: 400;
-}
-.italico {
-    font-style: italic;
-}
-.textocomlinhas {
-    /*text-decoration: underline;*/
-    /*text-decoration: overline;*/
-    text-decoration: line-through;
-}
-.fundo {
-    background-color: rgb(0, 0, 125);
-    }
-
-    .fonte1 {
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    .fonte2 {
-        font-size: 20px;
-        font-family: 'Courier New', Courier, monospace;
-    }
-    .fonte3 {
-        font-size: 20 px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    .fonte4 {
-        font-size: 20PX;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    .fonte5 {
-        font-size: 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    .fonte6 {
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .fonte7 {
-        font-size: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-
-    .fonte8 {
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .fonte9 {
-        font-size: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-
-/* modelo caixa*/
 
 .conteudo {
     border: 2px solid rgb(7, 7, 118);
@@ -388,7 +327,8 @@ a {
     .container {
                 width: 100%;
                 margin: 0 auto;
-                background: #3da9f6;
+                background: blue;
+                background: url(imagens/Design\ sem\ nome\ 1.png);
             }
 
     .img {
@@ -463,12 +403,10 @@ a {
 
     .divv {
         float: left;
-        margin-top: 30px;
-        margin-left: 5%;
         border: rgb(255, 255, 255);
         font-size: 15px;
         border-collapse: collapse;
-        min-width: 200px
+        margin-left: 30px;
   
         
     }
@@ -490,19 +428,23 @@ a {
         background: none;
     }
 
-    .h2 {
-        
-    }
-
     .p {
         width: 400px;
     }
 
     .layout {
-        background: rgb(255, 255, 255);
+        background: rgba(255, 255, 255, 0.84);
         height: 100%;
-        width: 80%;
+        width: 88%;
         padding-top: 20px;
+    }
+
+    .layout2{
+        background: rgba(255, 255, 255, 0.84);
+        height: 100%;
+        width: 88%;
+        padding-top: 20px;
+        padding-bottom: 500px;
     }
 
     #rodape {
@@ -512,7 +454,7 @@ a {
         background: #1f348f;
         color: white;
         background-color: #1f348f;
-        background: linear-gradient( #1f348f, #1f348f, #1f348f, #1a2a72);
+        background: linear-gradient(#1f348f, #1f348f, #1f348f, #1a2a72);
     }
 
     .im {
@@ -636,5 +578,23 @@ a {
 
     .mario:hover {
         width: 300px;
+        transition: 1s;
+    }
+
+    .ul {
+        list-style-type: disc;
+    }
+
+    .consorcio:hover {
+        width: 220px;
+        transition: 1s;
+    }
+
+    .con2 {
+        position: relative;
+    }
+
+    .con2:hover {
+        width: 220px;
         transition: 1s;
     }
