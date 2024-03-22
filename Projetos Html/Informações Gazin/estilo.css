@@ -172,7 +172,7 @@ left: 130px;
     background: linear-gradient(#1f348f, #1f348f, #1f348f, #1a2a72);
     height: 135px;
     width: 100%;
-    position: relative;
+    position: static;
     min-width: 1500px;
     
 }
@@ -334,7 +334,7 @@ a {
 
     .img {
         position: relative;
-        margin-right: 35px;
+        margin-right: 3%;
         border-radius: 8px;
         margin-left: 27%;
     }
@@ -435,17 +435,19 @@ a {
     }
 
     .layout {
+        display: block;
         background: rgba(255, 255, 255, 0.84);
         position: relative;
-        left: 5%;
+        left: 83px;
         height: 100%;
-        width: 88%;
+        width: 1340px;
         padding-top: 20px;
     }
 
-    .layout2{
+    .layout2 {  
         background: rgba(255, 255, 255, 0.84);
-        
+        position: relative;
+        left: 83px;
         height: 100%;
         width: 88%;
         padding-top: 20px;
@@ -459,7 +461,7 @@ a {
         background: #1f348f;
         color: white;
         background-color: #1f348f;
-        background: linear-gradient(#1f348f, #1f348f, #1f348f, #1a2a72);
+        background: linear-gradient( #1f348f, #1f348f, #1f348f, #1a2a72);
     }
 
     .im {
@@ -471,6 +473,7 @@ a {
     .consorcio {
         margin-bottom: 50px;
         margin-right: 70px;
+        margin-left: 27%;
     }
     
     .borda {
@@ -535,6 +538,7 @@ a {
     .img3 {
         position: relative;
         border-radius: 8px;
+        margin-left: 27%;
     }
 
     .img3:hover {
@@ -559,7 +563,7 @@ a {
     .jeito {
         position: relative;
         margin-left: 27%;
-        
+        margin-right: 3%;
     }
 
     .jeito:hover {
@@ -606,13 +610,23 @@ a {
     }
 
     p {
-        margin-left: 22%;
+        margin-left: 17%;
+        width: 900px
+
     }
     
     h2 {
-        margin-left: 22%;
+        margin-left: 17%;
     }
 
     table {
         margin-left: 20%;
+    }
+
+    .tb {
+        margin-left: 30%;
+    }
+
+    .cl {
+        margin-right: 0%;
     }
