@@ -32,24 +32,24 @@
     <p class="text-xl-center">tela &gt;= 1200px</p><!--Extra Large--> 
 <br>
 
-<h1 class="bg-success d-inline">Lorem Ipsum</h1><br>
+<h1>Lorem Ipsum</h1><br>
 
-<p class="bg-success d-inline">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
 <br>
 <br>
 
     <!-- Elemento inline-block-->
 
-    <span class="bg-success d-block">Lorem ipsum dolor 1</span>
-    <span class="bg-success d-block">Lorem ipsum dolor 2</span>
+    <span>Lorem ipsum dolor 1</span>
+    <span>Lorem ipsum dolor 2</span>
 <br>
 <br>
 
 <h2>Elementos flutuanttes</h2>
 
-<div style="" class="clearfix">
-  <div class="float-left">Float left</div>
-  <div class="float-right">Float right</div>
+<div class="clearfix">
+  <div class="bg-success float-left">Float left</div>
+  <div class="bg-warning float-right">Float right</div>
 </div>
 <br>
 <hr>
@@ -65,6 +65,133 @@
   <h2 class="text-white">Texto white</h2>
   <h2 class="text-black-50">Texto black 50</h2>
   <h2 class="text-white-50">Texto white 50</h2>
+
+<!-- Formatação de links -->
+<a href="" class="text-primary">Link primary</a><br>
+<a href="" class="text-secondary">Link secondary</a><br>
+<a href="" class="text-info">Link info</a><br>
+<a href="" class="text-success">Link success</a><br>
+<a href="" class="text-warning">Link warning</a><br>
+<a href="" class="text-danger">Link danger</a><br>
+<a href="" class="text-light">Link light</a><br>
+<a href="" class="text-dark">Link dark</a><br>
+<a href="" class="text-white">Link white</a><br>
+<a href="" class="text-black-50">Link black 50</a><br>
+<a href="" class="text-white-50">Link white 50</a><br>
+<br>
+<br>
+
+<h2>Formatanto backgrouds</h2>
+
+<div class="bg-primary">Backgroud primary</div>
+<div class="bg-secondary">Backgroud secondary</div>
+<div class="bg-success">Backgroud success</div>
+<div class="bg-info">Backgroud info</div>
+<div class="bg-warning">Backgroud warning</div>
+<div class="bg-danger">Backgroud danger</div>
+<div class="bg-light">Backgroud light</div>
+<div class="bg-dark text-white">Backgroud dark</div>
+<div class="bg-white">Backgroud white</div>
+<div class="bg-transparent">Backgroud transparent</div>
+<br>
+<br>
+
+<!-- Aplicação de Margin
+mt -> margin top
+mb -> margin bottom
+ml -> margin left
+mr -> margin right
+mx -> margin no eixo X (horizontal) esquerda e direita
+my -> margin no eixo Y (vertical) top/bottom
+m  -> margin em todos os lados
+Valor a definir (de 0 a 5) 
+-->
+
+<h1 class="bg-primary">Margin</h1>
+<p class="bg-dark text-white mt-3">Conteudo Principal</p>
+<br>
+<!-- Aplicação de Padding
+pt -> Padding Top
+pb -> Padding Bottom
+pl -> Padding Left
+pr -> Padding Right
+px -> Padding no eixo x (horizontal) esquerda / direita
+py -> Padding no eixo y (vertical) top / bottom 
+p  -> Padding em todos os lados 
+Valor a definir (0 até 5)
+-->
+
+<h1 class="bg-primary p-2"> Padding</h1>
+<p class="bg-danger p-5">Conteudo principal, ola tudo bem,dsadçsa</p>
+<br>
+<!-- classes de largura-->
+<h2 class="bg-dark text-white p-3">Classes de largura</h2>
+<div class="bg-primary w-25">width 25%</div>
+<div class="bg-primary w-50">width 50%</div>
+<div class="bg-primary w-75">width 75%</div>
+<div class="bg-primary w-100">width 100%</div>
+<div class="bg-primary w-auto">width auto</div>
+<br>
+<br>
+
+<h2 class="bg-dark text-white p-3">Classes de altura</h2>
+<!--classes de altura-->
+<div style="height: 300px;border: 1px solid gray;">
+  <div class="bg-warning d-inline-block h-25">
+    height 25%</div>
+  <div class="bg-warning d-inline-block h-50">
+    height 50%</div>
+  <div class="bg-warning d-inline-block h-75">
+    height 75%</div>
+  <div class="bg-warning d-inline-block h-100">
+    height 100%</div>
+  <div class="bg-warning d-inline-block h-auto">
+    height auto</div>
+</div>
+<br>
+
+<h2>Bordas</h2>
+
+<!--
+  
+  Bordas
+border         -> todas as bordas
+border-top     -> borda superior
+border-bottom  -> borda inferior
+border-right   -> borda direita
+border-left    -> borda equerda
+
+Cores de bordas
+border-<cor>: primary, secondary, success, info,
+  warning, danger, light, dark, white
+
+--> 
+<div class="border border-dark">
+<div class="bg-white mb-2 border">todas as bordas</div>
+<div class="bg-white mb-2 border-top border-primary">borda superior</div>
+<div class="bg-white mb-2 border-bottom">borda inferior</div>
+<div class="bg-white mb-2 border-right">borda direita</div>
+<div class="bg-white mb-2 border-left">borda esquerda</div>
+</div>
+<br>
+<!-- Border Radius
+opções: rounded, rounded-top, rounded-bottom
+rounded-right, rounded-right, rounded-left, rounded-circle
+-->
+
+<div class="bg-light mb-2 p-5 border rounded">rounded</div>
+<div class="bg-light mb-2 border rounded-top">rounded-top</div>
+<div class="bg-light mb-2 border rounded-bottom">rounded-bottom</div>
+<div class="bg-light mb-2 border rounded-right">rounded-right</div>
+<div class="bg-light mb-2 border rounded-left">rounded-left</div>
+<div class="bg-light mb-2 border p-5 border w-25 rounded-circle">rounded circle</div>
+
+
+
+
+
+
+
 
 
 
