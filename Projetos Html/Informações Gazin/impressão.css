@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: blue;
+    background: url(imagens/Design\ sem\ nome\.png);
+    background-attachment: fixed;
+}
+
+#acima {
+    background-color: #1f348f;
+    background: linear-gradient(#1f348f, #1f348f, #1f348f, #1a2a72);
+    height: 135px;
+    width: 100%;
+    position: static;
+    min-width: 1500px;
+}
+
+h2 { 
+    color: rgb(13, 13, 255);
+}

@@ -1,45 +1,9 @@
 
-    /*margin
-    margin-top
-    margin-right
-    margin-left
-    margin-bottom
-   
-   esse código serve para deixa os espaçamentos do lado de fora da borda
-   para definir um tamanho é preciso colocar o numero de px.
-   
-    */
-
-    /* inline-block, block, inline     
-     tamanho dos elementos inline é definido pelo conteudo que tem dentro dele
-     ja o block é um tamanho pré definido, para efetuar esse codigo é preciso usar
-     a palavra "display" antes  e depois selecionar inline ou block*/
-
-    /*isso serve para fazer tipo tabelas, com div e span, com o inline, block
-    é possivel deixar o div um do lado do outro, como se fossse uma
-    tabela.  */
-
-    /*padding serve para definir o espaço dentro da div, ou da span, ou da table.*/
-
-
-    /* o comando *{} é usado para selecionar tudos os elementos da página  */
-
-        /* height = altura */
-   
-   
-
-        
-
-       /* background-color:  #1f348f;*/
-
-
- 
     .acima {
         background-color: #1f348f;
         height: 135px;
         position: relative;
         }
-
 
     ul a:hover {
 color: rgb(14, 14, 45);
@@ -85,19 +49,13 @@ bottom: 35px;
 left: 130px;
 }
 
-    .container {
-        width: 100%;
-        margin: 0 auto;
-    }
-
 #acima {
     background-color: #1f348f;
-    background: linear-gradient(#1f348f, #1f348f, #1f348f, #1a2a72);
-    height: 135px;
+    background: linear-gradient(to right,  #081239, #1f348f, #1f348f, #081239);
+    height: 139px;
     width: 100%;
     position: static;
     min-width: 1500px;
-    
 }
 
 body {
@@ -109,7 +67,6 @@ body {
 
     .container {
         width: 100%;
-        margin: 0 auto;
         background: blue;
         background: url(imagens/Design\ sem\ nome\.png);
         background-attachment: fixed;
@@ -119,78 +76,15 @@ body {
         color: rgb(0, 0, 125);
     }
 
-.div {
-    position: relative;
-    float: left;
-    margin-left: 6%;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    border: rgb(255, 255, 255);
-    font-size: 15px;
-    border-collapse: collapse;
-
-   
-}
-
-.letrastabela {
-    font-size: 13px;
-}
-
 a {
     text-decoration: none;
     color: rgb(63, 140, 227);
 }
 
 
-
-.letra {
-    font-size: 13px;
-}
-
-.imagem58 {
-    position: relative;
-    bottom: 150px;
-    left: 250px;
-}
-
-.margin {
-    margin-left: 20px;
-}
-
 .tabelas {
     background: rgba(113, 190, 253, 0.693);
 }
-
-    .espaço1 {
-        position: relative;
-        float: left;
-        left: 30px;
-        font-size: 20px;
-        top: 20px;
-    }
-
-    .espaço2 {
-        position: relative;
-        left: 280px; 
-        bottom: 220px;
-    }
-
-    .hr {
-        position: relative;
-        bottom: 100px;
-    }
-
-    .padding {
-        padding-top: 70px;
-        position: relative;
-        bottom: px;
-    }
-
-    .padding1 {
-        padding-top: 40px;
-        position: relative;
-        bottom: 5px;
-    }
 
     #acima ul a:hover {
         color: rgb(14, 14, 45);
@@ -275,26 +169,6 @@ a {
        
     }
 
-    .h2 {
-        position: relative;
-        top: 40px;
-    right: 480px;
-        float: left;
-    }
-
-    .hr1 {
-        position: relative;
-        top: 850px;
-        right: 900px;
-       font-size: 20px; 
-    }
-
-    .gz {
-        position: relative;
-        text-align: center;
-    }
- 
-
     .tabela2 {
         border: white;
         padding-right: 50px;
@@ -303,46 +177,6 @@ a {
 
     .tabela1 {
         font-size: 20px;
-    }
-
-    .tbl {
-        position: relative;
-        text-align: center;
-    }
-
-    .fabrica {
-        position: relative;
-        right: 30px;
-        padding: 10px;
-    }
-
-    .fabrica2 {
-        position: relative;
-        left: 30px;
-        padding: 10px;
-    }
-
-    .divv {
-        float: left;
-        border: rgb(255, 255, 255);
-        font-size: 15px;
-        border-collapse: collapse;
-        margin-left: 30px;
-  
-        
-    }
-
-    .th {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .sdd {
-        position: relative;
-        border-top: solid 5px #133348;
-        border-right: solid 5px #133348;
-        border-bottom: solid 5px #1e679a;
-        border-left: solid 5px #19527b;
     }
 
     #acima ul a .primeiro {
@@ -363,6 +197,12 @@ a {
         padding-top: 20px;
     }
 
+    @media (min-width: 80%) {
+        .layout {
+            left: 2%;
+        }
+    }
+
     .layout2 {  
         background: rgba(255, 255, 255, 0.84);
         position: relative;
@@ -380,7 +220,7 @@ a {
         background: #1f348f;
         color: white;
         background-color: #1f348f;
-        background: linear-gradient( #1f348f, #1f348f, #1f348f, #1a2a72);
+        background: linear-gradient(to right,  #1f348f, #081239);
     }
 
     .im {
@@ -546,9 +386,3 @@ a {
     .tb {
         margin-left: 30%;
     }
-
-    .cl {
-        margin-right: 0%;
-    }
-
-    
