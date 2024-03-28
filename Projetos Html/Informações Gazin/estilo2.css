@@ -1,0 +1,51 @@
+/*Tegs pra animações
+Opções para "transform"
+
+translate X ou Y (translate para mover o eleento)
+
+Rotate (Ex : trasform: rotate(45deg); para rotacionar o elemento)
+
+scale X ou Y (para aumentar o tamanho do elemento)
+
+skew X ou Y  (para inclinar o elemento "Especificar com "deg" ")
+
+*/
+
+
+
+
+
+
+
+
+
+
+.box {
+    background-color: rgb(8, 59, 129);
+    height: 300px;
+    width: 300px;
+    transition-property: backgroud-color, border-radius;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+
+
+.box:hover {
+    background-color: rgba(140, 47, 47, 0.896);
+    border-radius: 50%;
+}
+
+#acima ul a:hover {
+    color: rgb(14, 14, 45);
+    background: #467ce0d2;
+    width: 110px;
+    border-radius: 5px;
+    height: 50px;
+    animation: ease-in-out (0.5s); 
+    transform: translateY(-8px);
+    transition-duration: 1.5s;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+       
+}
+

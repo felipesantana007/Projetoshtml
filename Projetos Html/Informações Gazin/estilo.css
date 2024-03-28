@@ -5,9 +5,8 @@
         position: relative;
         }
 
-    ul a:hover {
-color: rgb(14, 14, 45);
-background: rgba(112, 163, 230, 0.815);
+.bg {
+    background: url(imagens/Sem\ título.png) no-repeat;
 }
 
 ul a {
@@ -16,37 +15,7 @@ padding: 0 2em;
 color: white;
 line-height: 2em;
 text-decoration: none;
-background: url(imagens/Sem\ título.png) no-repeat;
 float: left;
-}
-
-.li {
-float: left;
-font-size: 16px;
-margin: 0;
-padding: 0;
-list-style: none;
-width: 703px;
-background-color:  #1f348f;
-float: left;
-position: relative;
-bottom: 35px;
-left: 60px;
-
-}
-
-.li2 {
-float: left;
-font-size: 16px;
-margin: 0;
-padding: 0;
-list-style: none;
-width: 703px;
-background-color:  #1f348f;
-float: left;
-position: relative;
-bottom: 35px;
-left: 130px;
 }
 
 #acima {
@@ -86,14 +55,32 @@ a {
     background: rgba(113, 190, 253, 0.693);
 }
 
-    #acima ul a:hover {
-        color: rgb(14, 14, 45);
-        background: #467ce0d2;
-        width: 120px;
-        transition: 1s;
+#acima ul a:hover {
+    animation: ul-animation 0.7s ease-in-out forwards ;
+}
+
+    @keyframes ul-animation {
+        from {
+            transform: translateY(0px);
+            background: #467ce006;
+            width: 110px;
+            border-radius: 3px;
+            height: 45px;
+        }
+
+        to {
+            transform: translateY(-9px);
+            color: rgb(14, 14, 45);
+            background: #467ce0d2;
+            width: 110px;
+            border-radius: 5px;
+            height: 45px;
+        }
+
     }
 
     #acima ul {
+        position: relative;
         display: block;
         padding: 0 2em;
         color: white;
@@ -101,47 +88,18 @@ a {
         text-decoration: none;
         background: url(imagens/Sem\ título.png) no-repeat;
         list-style: none;
-        text-align: center;
-        margin-left: 5%;
-        left: 0%;
+        margin-left: 3.5%;
+       
     }
 
     #acima li {
         float: left;
         margin: 0 auto;
-        font-size: 16px;
+        font-size: 15px;
+        text-align: center;
+        width: 167px;
     }
     
-
-   .li {
-        float: left;
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        width: 703px;
-        float: left;
-        background-color:  #1f348f;
-        position: relative;
-        bottom: 35px;
-        left: 60px;
-  
-    }
-
-    .li2 {
-        float: left;
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        width: 703px;   
-        float: left;
-        background-color:  #1f348f;
-        position: relative;
-        bottom: 35px;
-        left: 130px;
-    }
-
     .td {
         position: relative;
         padding-top: 30px;
@@ -195,6 +153,7 @@ a {
         height: 100%;
         width: 88%;
         padding-top: 20px;
+        animation: layout 1s;
     }
 
     @media (min-width: 80%) {
@@ -221,7 +180,16 @@ a {
         color: white;
         background-color: #1f348f;
         background: linear-gradient(to right,  #1f348f, #081239);
+        animation: rodape 1s;
     }
+
+    @keyframes rodape {
+        from {
+            
+        }
+    }
+
+
 
     .im {
         position: relative;
@@ -261,19 +229,15 @@ a {
 
     }
 
-    .primeiro:hover
-    {
+    .primeiro:hover {
         color: rgb(14, 14, 45);
         background: #467ce0d2;
-    }
-
-    .produto {
-        background: white;
-    }
-
-    .produto:hover {
-        width: 75px;
-        transition: width 1s, backgroud 2s;
+        animation: ease-in-out;
+        width: 110px;
+        height: 37px;
+        transition: 1s;
+        transform: translateX(-2px) translateY(-8px);
+        border-radius: 4px;
     }
 
     .lt {
@@ -372,11 +336,36 @@ a {
     p {
         margin-left: 17%;
         width: 67%;
+        animation: text 1s;
+    }
 
+    @keyframes text {
+        from {
+            opacity: 0;
+            translate: -100vw 0;
+        }
+
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
     }
     
     h2 {
         margin-left: 17%;
+        animation: h2 1s;
+    }
+
+    @keyframes h2 {
+        from {
+            opacity: 0;
+            translate: -30vw 0;
+        }
+
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
     }
 
     table {
@@ -386,3 +375,33 @@ a {
     .tb {
         margin-left: 30%;
     }
+
+    img {
+        animation: img 1s;
+    }
+
+    @keyframes img {
+        from {
+            opacity: 0.2;
+            translate: -10vw 0;
+        }
+
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
+    }
+
+    @keyframes layout {
+        from {
+            opacity: 0.3;
+            translate: -4vw 0;
+        }
+
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
+    }
+
+
