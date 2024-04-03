@@ -1,9 +1,36 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+}
 
-    .acima {
-        background-color: #1f348f;
-        height: 135px;
-        position: relative;
-        }
+img:hover {
+cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    img {
+        width: 220px;
+    }
+}
+
+h3 {
+    margin-left: 17%;
+    animation: h2 1s;
+}
+
+h2 {
+    color: rgb(0, 0, 125);
+    margin-left: 17%;
+    animation: h2 1s;
+}
+
+.container {
+    width: 100%;
+    background: url(imagens/Design\ sem\ nome\.png);
+    background-attachment: fixed;
+}
 
 .bg {
     background: url(imagens/Sem\ título.png) no-repeat;
@@ -24,26 +51,65 @@ float: left;
     height: 139px;
     width: 100%;
     position: static;
-    min-width: 1500px;
 }
 
-body {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-        background: rgb(255, 255, 255);
-        margin: 0 auto;
+
+.layout {
+    display: block;
+    background: rgba(255, 255, 255, 0.84);
+    position: relative;
+    margin-inline: 6%;
+    height: 100%;
+    width: 88%;
+    padding-top: 4%;
+    animation: layout 1s;
+    align-items: center;
+    justify-content: center;
+}
+
+#burger {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    float: right;
+    position: relative;
+    bottom: 3.0em;
+    display: none;
+    animation: hamburger 1s;
+}
+
+    #burger:hover {
+    background-color: #436ac4;
+    transition: 1s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+@keyframes hamburger {
+    from {
+        opacity: 0;
     }
 
-    .container {
-        width: 100%;
-        background: blue;
-        background: url(imagens/Design\ sem\ nome\.png);
-        background-attachment: fixed;
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes text {
+    from {
+        opacity: 0;
+        translate: -100vw 0;
     }
 
-    h2 { 
-        color: rgb(0, 0, 125);
+    to {
+        opacity: 1;
+        translate: 0 0;
     }
+}
+
 
 a {
     text-decoration: none;
@@ -57,13 +123,14 @@ a {
 
 #acima ul a:hover {
     animation: ul-animation 0.7s ease-in-out forwards ;
+
 }
 
     @keyframes ul-animation {
         from {
             transform: translateY(0px);
-            background: #467ce006;
-            width: 110px;
+            background: #436ac42b;
+            width: 66%;
             border-radius: 3px;
             height: 45px;
         }
@@ -71,14 +138,15 @@ a {
         to {
             transform: translateY(-9px);
             color: rgb(14, 14, 45);
-            background: #467ce0d2;
-            width: 110px;
+            background: #436ac4;
+            width: 66%;
             border-radius: 5px;
             height: 45px;
         }
 
     }
 
+    
     #acima ul {
         position: relative;
         display: block;
@@ -89,7 +157,7 @@ a {
         background: url(imagens/Sem\ título.png) no-repeat;
         list-style: none;
         margin-left: 3.5%;
-       
+
     }
 
     #acima li {
@@ -99,7 +167,71 @@ a {
         text-align: center;
         width: 167px;
     }
+
+    @media (max-width: 1482px) {
+        li {
+            display: none;
+            animation: li 0.5s;
+        }
+
+        #burger {
+            display: flex;
+        }
+
+        .bg {
+            display: none;
+        }
+
+        #acima {
+            animation: media 0.5s ease-in-out forwards;
+        }
+    }
+
+    @media (min-width: 1482px) {
+        li {
+            display: block;
+            animation: li2 0.3;
+        }
+
+        #acima {
+            animation: media2 0.3s ease-in-out forwards;
+        }
+    }
+
+    @keyframes li {
+        from {
+            display: block;
+            width: 167px;
+            opacity: 0.9;
+        }
+
+        to {
+            display: none;
+            transform:translateY(13px);
+            opacity: 0;
+        }
+    }
+
+    @keyframes media {
+        from {
+            height: 139px;
+        }
+
+        to {
+            height: 110px;
+        }
+    }
     
+    @keyframes media2 {
+        from {
+            height: 110px;
+        }
+
+        to {
+            height: 139px;
+        }
+    }
+
     .td {
         position: relative;
         padding-top: 30px;
@@ -121,12 +253,6 @@ a {
     
     }
 
-    .p {
-       position: relative;
-       padding-left: 100px;
-       
-    }
-
     .tabela2 {
         border: white;
         padding-right: 50px;
@@ -135,41 +261,6 @@ a {
 
     .tabela1 {
         font-size: 20px;
-    }
-
-    #acima ul a .primeiro {
-        background: none;
-    }
-
-    .p {
-        width: 400px;
-    }
-
-    .layout {
-        display: block;
-        background: rgba(255, 255, 255, 0.84);
-        position: relative;
-        left: 6%;
-        height: 100%;
-        width: 88%;
-        padding-top: 20px;
-        animation: layout 1s;
-    }
-
-    @media (min-width: 80%) {
-        .layout {
-            left: 2%;
-        }
-    }
-
-    .layout2 {  
-        background: rgba(255, 255, 255, 0.84);
-        position: relative;
-        left: 83px;
-        height: 100%;
-        width: 88%;
-        padding-top: 20px;
-        padding-bottom: 500px;
     }
 
     #rodape {
@@ -182,14 +273,6 @@ a {
         background: linear-gradient(to right,  #1f348f, #081239);
         animation: rodape 1s;
     }
-
-    @keyframes rodape {
-        from {
-            
-        }
-    }
-
-
 
     .im {
         position: relative;
@@ -337,23 +420,6 @@ a {
         margin-left: 17%;
         width: 67%;
         animation: text 1s;
-    }
-
-    @keyframes text {
-        from {
-            opacity: 0;
-            translate: -100vw 0;
-        }
-
-        to {
-            opacity: 1;
-            translate: 0 0;
-        }
-    }
-    
-    h2 {
-        margin-left: 17%;
-        animation: h2 1s;
     }
 
     @keyframes h2 {
