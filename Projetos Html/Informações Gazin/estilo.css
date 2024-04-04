@@ -26,6 +26,16 @@ h2 {
     animation: h2 1s;
 }
 
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 1480px) {
+    #btn-mobile {
+        display: block;
+    }
+}
+
 .container {
     width: 100%;
     background: url(imagens/Design\ sem\ nome\.png);
