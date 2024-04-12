@@ -14,12 +14,6 @@ img:hover {
 cursor: pointer;
 }
 
-@media (max-width: 1000px) {
-    img {
-        width: 220px;
-    }
-}
-
 h3 {
     margin-left: 17%;
     animation: h2 1s;
@@ -29,16 +23,6 @@ h2 {
     color: rgb(0, 0, 125);
     margin-left: 17%;
     animation: h2 1s;
-}
-
-#btn-mobile {
-    display: none;
-}
-
-@media (max-width: 1480px) {
-    #btn-mobile {
-        display: block;
-    }
 }
 
 .container {
@@ -81,27 +65,6 @@ float: left;
     align-items: center;
     justify-content: center;
 }
-
-#burger {
-    background: transparent;
-    border: none;
-    color: white;
-    font-size: 30px;
-    float: right;
-    position: relative;
-    bottom: 3.0em;
-    display: none;
-    animation: hamburger 1s;
-}
-
-    #burger:hover {
-    background-color: #436ac4;
-    transition: 1s;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-
 
 @keyframes hamburger {
     from {
@@ -192,10 +155,6 @@ a {
 
         .im {
             display: none;
-        }
-
-        #burger {
-            display: flex;
         }
 
         .bg {
