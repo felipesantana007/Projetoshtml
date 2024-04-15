@@ -66,7 +66,43 @@ float: left;
     justify-content: center;
 }
 
-@keyframes hamburger {
+.label-menu,
+.checkbox {
+    display: none;
+}
+
+@media (max-width: 1482px) {
+    .label-menu {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: white;
+        padding-block: 1rem;
+        cursor: pointer;
+    }
+
+    .hamburger {
+        border-top: 0.125rem solid;
+        width: 1.25rem;
+        position: relative;
+        bottom: 90px;
+        left: 94%;
+        animation: burger 0.5s ease-in-out;
+    }
+
+    .hamburger::before,
+    .hamburger::after {
+        content: " ";
+        display: block;
+        width: 1.25rem;
+        height: 0.125rem;
+        background-color: currentColor;
+        margin-top: 0.3125rem;
+    }
+
+}
+
+@keyframes burger {
     from {
         opacity: 0;
     }
@@ -75,7 +111,7 @@ float: left;
         opacity: 1;
     }
 }
-
+ 
 @keyframes text {
     from {
         opacity: 0;
@@ -101,6 +137,7 @@ a {
 
 #acima ul a:hover {
     animation: ul-animation 0.7s ease-in-out forwards ;
+    z-index: 1;
 
 }
 
@@ -139,6 +176,10 @@ a {
 
     }
 
+    .bg2 {
+        display: none;
+    }
+
     #acima li {
         float: left;
         margin: 0 auto;
@@ -147,22 +188,93 @@ a {
         width: 167px;
     }
 
+    .checkbox:checked ~ .nav-list {
+        display: block;
+        visibility: visible;
+        animation: checked ease-in-out 0.5s;
+    }
+
+    @keyframes checked {
+        from {
+            height: 0;
+        }
+
+        to {
+            height: 130px;
+        }
+    }
+
     @media (max-width: 1482px) {
-        li {
+        .nav-list {
+            width: 100%;
             display: none;
-            animation: li 0.5s;
+            position: absolute;
+            top: 4.6875rem;
+            left: 0;
+            text-align: center;
+            background: linear-gradient(to right,  #081239, #1f348f, #1f348f, #081239);
+            z-index: 1;
+            height: 150px;
         }
 
         .im {
             display: none;
         }
 
-        .bg {
+        .bg1 {
             display: none;
         }
 
+        #acima ul {
+            width: 50%;
+            top: 20px;
+            left: 20%;
+        }
+
+        .bg {
+            display: block;
+            animation: bg 1s ease-in-out;
+        }
+
+        .bg2 {
+            display: block;
+            background: url(imagens/Sem\ título.png) no-repeat;
+            animation: bg 1s ease-in-out;
+        }
+
         #acima {
-            animation: media 0.5s ease-in-out forwards;
+            animation: media 1s ease-in-out forwards;
+        }
+
+        #acima ul a:hover {
+            animation: ul-animation2 0.7s ease-in-out forwards ;
+        }
+
+    }
+
+    @keyframes ul-animation2 {
+        from {
+            background: #436ac42b;
+            border-radius: 3px;
+            width: 66%;
+        }
+
+        to {
+            color: rgb(14, 14, 45);
+            background: #436ac4;
+            border-radius: 5px;
+            width: 66%;
+        }
+    }
+
+
+    @keyframes bg {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
         }
     }
 
