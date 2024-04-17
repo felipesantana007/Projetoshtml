@@ -14,12 +14,6 @@ img:hover {
 cursor: pointer;
 }
 
-@media (max-width: 1300px) {
-    img {
-
-    }
-}
-
 h3 {
     margin-left: 17%;
     animation: h2 1s;
@@ -386,18 +380,17 @@ a {
     #rodape {
         clear: both;
         padding: 20px;
-        height: 100%;
+        height: 17rem;
         background: #1f348f;
         color: white;
         background-color: #1f348f;
         background: linear-gradient(to right,  #1f348f, #081239);
-        animation: rodape 1s;
     }
 
     .im {
         position: relative;
         text-align: left;
-        top: 20px;
+        top: 30px;
     }
 
     .consorcio {
@@ -430,17 +423,6 @@ a {
     #acima ul .primeiro a {
         background: none;
 
-    }
-
-    .primeiro:hover {
-        color: rgb(14, 14, 45);
-        background: #467ce0d2;
-        animation: ease-in-out;
-        width: 110px;
-        height: 37px;
-        transition: 1s;
-        transform: translateX(-2px) translateY(-8px);
-        border-radius: 4px;
     }
 
     .lt {
@@ -610,8 +592,8 @@ a {
 
     #links-footer {
         position: relative;
-        margin-left: 20rem;
-        bottom: 40px;
+        margin-left: 30rem;
+        bottom: 8px;
         color: white;
     }
 
@@ -627,8 +609,8 @@ a {
 
     #suporte-footer {
         position: relative;
-        margin-left: 30rem;
-        bottom: 14rem;
+        margin-left: 40rem;
+        bottom: 190px;
         color: white;
     }
 
@@ -636,4 +618,27 @@ a {
         color: rgba(255, 255, 255, 0.556);
         text-decoration: underline;
         font-size: 17px;
+    }
+
+    #contato {
+        position: relative;
+        bottom: 315px;
+        margin-left:50rem;
+        color: white;
+    }
+
+    #contato li {
+        margin-bottom: 7px;
+        
+    }
+
+    #contato a {
+        color: rgba(255, 255, 255, 0.556);
+        text-decoration: none;
+        font-size: 17px;
+        cursor: default;
+    }
+
+    .copy {
+        position: relative;
     }
