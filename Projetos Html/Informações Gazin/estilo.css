@@ -41,7 +41,7 @@ h2 {
     background: url(imagens/Sem\ título.png) no-repeat;
 }
 
-ul a {
+#acima ul a {
 display: block;
 padding: 0 2em;
 color: white;
@@ -386,7 +386,7 @@ a {
     #rodape {
         clear: both;
         padding: 20px;
-        height: 60px;
+        height: 100%;
         background: #1f348f;
         color: white;
         background-color: #1f348f;
@@ -590,4 +590,50 @@ a {
         }
     }
 
+    .link {
+        color: white;
+        text-decoration: underline;
+    }
 
+    .rede-socias {
+        position: relative;
+        top: 70px;
+    }
+
+    #rd1 {
+        margin-right: 14px;
+    }
+
+    #rd2 {
+        margin-right: 14px;
+    }
+
+    #links-footer {
+        position: relative;
+        margin-left: 20rem;
+        bottom: 40px;
+        color: white;
+    }
+
+    #links-footer a {
+        color: rgba(255, 255, 255, 0.556);
+        text-decoration: underline;
+        font-size: 17px;
+    }
+
+    #links-footer li {
+        margin-bottom: 7px;
+    }
+
+    #suporte-footer {
+        position: relative;
+        margin-left: 30rem;
+        bottom: 14rem;
+        color: white;
+    }
+
+    #suporte-footer a {
+        color: rgba(255, 255, 255, 0.556);
+        text-decoration: underline;
+        font-size: 17px;
+    }
