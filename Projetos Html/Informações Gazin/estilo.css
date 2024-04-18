@@ -287,7 +287,7 @@ a {
     }
 
     @media (min-width: 1482px) {
-        li {
+        #acima li {
             display: block;
             animation: li2 0.3;
         }
@@ -378,9 +378,10 @@ a {
     }
 
     #rodape {
+        padding: 0;
+        margin: 0;
         clear: both;
-        padding: 20px;
-        height: 17rem;
+        height: 19rem;
         background: #1f348f;
         color: white;
         background-color: #1f348f;
@@ -390,6 +391,7 @@ a {
     .im {
         position: relative;
         text-align: left;
+        margin-left: 10px;
         top: 30px;
     }
 
@@ -434,25 +436,10 @@ a {
         padding-bottom: 14px;
     }
 
-    .img:hover {
-        width: 370px;
-        transition: 1s;
-    }
-
-    .img2:hover {
-        width: 370px;
-        transition: 1s;
-    }
-
     .img3 {
         position: relative;
         border-radius: 8px;
         margin-left: 27%;
-    }
-
-    .img3:hover {
-        width: 425px;
-        transition: 1s;
     }
 
     ul {
@@ -464,20 +451,10 @@ a {
         margin-left: 27%;
     }
 
-    .imgz:hover {
-        width: 330px;
-        transition: 1s;
-    }
-
     .jeito {
         position: relative;
         margin-left: 27%;
         margin-right: 3%;
-    }
-
-    .jeito:hover {
-        width: 230px;
-        transition: 1s
     }
 
     .dna {
@@ -485,19 +462,9 @@ a {
         border-radius: 8px;
     }
 
-    .dna:hover {
-        width: 360px;
-        transition: 1s;
-    }
-
     .mario {
         padding-bottom: 40px;
        margin-left: 2%;
-    }
-
-    .mario:hover {
-        width: 300px;
-        transition: 1s;
     }
 
     .ul {
@@ -511,11 +478,6 @@ a {
 
     .con2 {
         position: relative;
-    }
-
-    .con2:hover {
-        width: 220px;
-        transition: 1s;
     }
 
     p {
@@ -579,6 +541,7 @@ a {
 
     .rede-socias {
         position: relative;
+        margin-left: 10px;
         top: 70px;
     }
 
@@ -592,7 +555,7 @@ a {
 
     #links-footer {
         position: relative;
-        margin-left: 30rem;
+        margin-left: 14rem;
         bottom: 8px;
         color: white;
     }
@@ -609,8 +572,8 @@ a {
 
     #suporte-footer {
         position: relative;
-        margin-left: 40rem;
-        bottom: 190px;
+        margin-left: 22rem;
+        bottom: 192px;
         color: white;
     }
 
@@ -623,7 +586,7 @@ a {
     #contato {
         position: relative;
         bottom: 315px;
-        margin-left:50rem;
+        margin-left:31rem;
         color: white;
     }
 
@@ -641,4 +604,38 @@ a {
 
     .copy {
         position: relative;
+        top: 5rem;
+        right: 15rem;
+    }
+
+    @media (max-width: 1200px) {
+        .img {
+           width: 250px; 
+        }
+
+        .imgz {
+            width: 250px;
+        }
+
+        .mario {
+            width: 250px;
+        }
+    }
+
+    #imgs {
+        float: left;
+    }
+
+    .vntgs {
+        width: 250px;
+        list-style: disc;
+        position: relative;
+        left: 17rem;
+    }
+
+    .arrow {
+        position: relative;
+        margin: 10px;
+        margin-right: 3%;
+        margin-left: 23%;
     }
