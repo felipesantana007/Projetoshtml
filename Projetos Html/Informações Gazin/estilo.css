@@ -222,7 +222,9 @@ a {
         }
 
         .bg1 {
-            display: none;
+            display: block;
+            background: url(imagens/Sem\ título.png) no-repeat;
+            animation: bg 1s ease-in-out;
         }
 
         #acima ul {
@@ -241,12 +243,6 @@ a {
 
         .bg {
             display: block;
-            animation: bg 1s ease-in-out;
-        }
-
-        .bg2 {
-            display: block;
-            background: url(imagens/Sem\ título.png) no-repeat;
             animation: bg 1s ease-in-out;
         }
 
@@ -364,7 +360,6 @@ a {
     .img2 {
         position: relative;
         border-radius: 8px;
-    
     }
 
     .tabela2 {
@@ -638,4 +633,18 @@ a {
         margin: 10px;
         margin-right: 3%;
         margin-left: 23%;
+    }
+
+    #video {
+        margin-left: 5%;
+    }
+
+    .dv {
+        margin-left: 10%;
+        width: 55%;
+    }
+    
+    .dv2 {
+        margin-left: 10%;
+        width: 56%;
     }
