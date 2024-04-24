@@ -194,6 +194,7 @@ a {
         animation: checked ease-in-out 0.5s;
     }
 
+
     @keyframes checked {
         from {
             height: 0;
