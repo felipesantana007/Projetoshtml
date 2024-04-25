@@ -23,6 +23,17 @@ h2 {
     color: rgb(0, 0, 125);
     margin-left: 17%;
     animation: h2 1s;
+    animation: h2-animation 3s infinite alternate-reverse;
+}
+
+@keyframes h2-animation {
+    from {
+        color: rgb(0, 0, 125);
+    }
+
+    to {
+       color: rgb(6, 99, 192);
+    }
 }
 
 .container {
