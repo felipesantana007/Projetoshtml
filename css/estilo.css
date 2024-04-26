@@ -38,12 +38,12 @@ h2 {
 
 .container {
     width: 100%;
-    background: url(imagens/Design\ sem\ nome\.png);
+    background: url(../imagens/Design\ sem\ nome\.png);
     background-attachment: fixed;
 }
 
 .bg {
-    background: url(imagens/Sem\ título.png) no-repeat;
+    background: url(../imagens/Sem\ título.png) no-repeat;
 }
 
 #acima ul a {
@@ -180,7 +180,7 @@ a {
         color: white;
         line-height: 2em;
         text-decoration: none;
-        background: url(imagens/Sem\ título.png) no-repeat;
+        background: url(../imagens/Sem\ título.png) no-repeat;
         list-style: none;
         margin-left: 6%;
         top: 20px;
@@ -235,7 +235,7 @@ a {
 
         .bg1 {
             display: block;
-            background: url(imagens/Sem\ título.png) no-repeat;
+            background: url(../imagens/Sem\ título.png) no-repeat;
             animation: bg 1s ease-in-out;
         }
 
